@@ -28,7 +28,7 @@
 
 * จัดการข้อมูล: ทวีต, โปรไฟล์, ไลก์, รีทวีต
 * ตรวจสอบสิทธิ์ผู้เล่น
-* ใช้ไฟล์: `niranam_twitter.inc`
+* ใช้ไฟล์: `niranam_twitter.pwn`
 
 #### 🔹 Frontend (HTML/CSS/JS)
 
@@ -161,7 +161,7 @@ Built on a **Client-Server Architecture** combined with Web Technology
 
 * Handles tweets, profiles, likes, retweets
 * Player authentication
-* File: `niranam_twitter.inc`
+* File: `niranam_twitter.pwn`
 
 #### 🔹 Frontend (HTML/CSS/JS)
 
