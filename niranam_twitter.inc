@@ -1,10 +1,10 @@
 ////////////////////////////////////////////////
 // -- Create by ilaixDev
 // -- Power by https://claude.ai/
-// -- ‰¡ËÕπÿ≠“µ‘„ÀÈπ”‰ª¢“¬
-// --  “¡“√∂π”‰ª∑”‡æ‘Ë¡·°È∫—§µË“ßÊ‰¥È‡Õß
-// -- ≈‘Èß TWITTER_URL ‡ª≈◊Ë¬π‡ªÈπ¢Õßµ—«‡Õß‰¥È‡≈¬
-// -- Õ¬Ë“≈◊¡·°È Database µ√ß∫√√∑—¥47
+// -- ‡πÑ‡∏°‡πà‡∏≠‡∏ô‡∏∏‡∏ç‡∏≤‡∏ï‡∏¥‡πÉ‡∏´‡πâ‡∏ô‡∏≥‡πÑ‡∏õ‡∏Ç‡∏≤‡∏¢
+// -- ‡∏™‡∏≤‡∏°‡∏≤‡∏£‡∏ñ‡∏ô‡∏≥‡πÑ‡∏õ‡∏ó‡∏≥‡πÄ‡∏û‡∏¥‡πà‡∏°‡πÅ‡∏Å‡πâ‡∏ö‡∏±‡∏Ñ‡∏ï‡πà‡∏≤‡∏á‡πÜ‡πÑ‡∏î‡πâ‡πÄ‡∏≠‡∏á
+// -- ‡∏•‡∏¥‡πâ‡∏á TWITTER_URL ‡πÄ‡∏õ‡∏•‡∏∑‡πà‡∏¢‡∏ô‡πÄ‡∏õ‡πâ‡∏ô‡∏Ç‡∏≠‡∏á‡∏ï‡∏±‡∏ß‡πÄ‡∏≠‡∏á‡πÑ‡∏î‡πâ‡πÄ‡∏•‡∏¢
+// -- ‡∏≠‡∏¢‡πà‡∏≤‡∏•‡∏∑‡∏°‡πÅ‡∏Å‡πâ Database ‡∏ï‡∏£‡∏á‡∏ö‡∏£‡∏£‡∏ó‡∏±‡∏î47
 ////////////////////////////////////////////////
 
 #include <YSI_Coding\y_hooks>
@@ -116,7 +116,7 @@ public OnBrowserReady(playerid) {
     if(IsBrowserReady[playerid]) return 1;
 
     IsBrowserReady[playerid] = true;
-    printf("[Twitter]: JS æ√ÈÕ¡·≈È« player %d", playerid);
+    printf("[Twitter]: JS ‡∏û‡∏£‡πâ‡∏≠‡∏°‡πÅ‡∏•‡πâ‡∏ß player %d", playerid);
 
     cef_emit_event(playerid, "setPlayerData", 
         CEFSTR(PlayerNickname[playerid]), 
@@ -133,7 +133,7 @@ public OnBrowserReady(playerid) {
 
 public TogglePlayerPhone(playerid) {
     if(!IsBrowserReady[playerid]) {
-        SendClientMessage(playerid, 0xFF4400FF, "[Twitter]: °√ÿ≥“√Õ —°§√ŸË °”≈—ß‚À≈¥...");
+        SendClientMessage(playerid, 0xFF4400FF, "[Twitter]: ‡∏Å‡∏£‡∏∏‡∏ì‡∏≤‡∏£‡∏≠‡∏™‡∏±‡∏Å‡∏Ñ‡∏£‡∏π‡πà ‡∏Å‡∏≥‡∏•‡∏±‡∏á‡πÇ‡∏´‡∏•‡∏î...");
         return 1;
     }
     
@@ -343,7 +343,7 @@ public OnPlayerSaveSettings(playerid, const data[]) {
         CEFSTR(PlayerBio[playerid])
     );
 
-    SendClientMessage(playerid, 0x1D9BF0FF, "[Twitter]: ∫—π∑÷°‚ª√‰ø≈Ï‡√’¬∫√ÈÕ¬!");
+    SendClientMessage(playerid, 0x1D9BF0FF, "[Twitter]: ‡∏ö‡∏±‡∏ô‡∏ó‡∏∂‡∏Å‡πÇ‡∏õ‡∏£‡πÑ‡∏ü‡∏•‡πå‡πÄ‡∏£‡∏µ‡∏¢‡∏ö‡∏£‡πâ‡∏≠‡∏¢!");
     return 1;
 }
 
