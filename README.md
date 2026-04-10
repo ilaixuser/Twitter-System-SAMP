@@ -1,4 +1,4 @@
-# 📱🐦 Niranam Twitter System (SA-MP CEF)
+# Niranam Twitter System (SA-MP CEF)
 
 ---
 
@@ -7,7 +7,7 @@
 ### 📌 บทนำ
 
 **Niranam Twitter System** เป็นระบบสมาร์ทโฟนและโซเชียลมีเดียจำลอง (Twitter/X) สำหรับเซิร์ฟเวอร์ **San Andreas Multiplayer (SA-MP)**
-พัฒนาโดย **ilaixDev (Shop Niranam SAMP)**
+พัฒนาโดย **ilaixDev**
 
 ระบบนี้ถูกออกแบบมาให้:
 
@@ -140,7 +140,7 @@ https://youtu.be/UbBt2tMXuNs?si=Ls3DioYk4_7OJorc
 ### 📌 Introduction
 
 **Niranam Twitter System** is a simulated smartphone and social media (Twitter/X) system for **San Andreas Multiplayer (SA-MP)** servers.
-Developed by **ilaixDev (Shop Niranam SAMP)**
+Developed by **ilaixDev**
 
 Designed to be:
 
