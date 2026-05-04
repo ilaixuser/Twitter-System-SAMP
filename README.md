@@ -1,5 +1,7 @@
 # Niranam Twitter System (SA-MP CEF)
 # Discord : https://discord.gg/Z87DUsZeVa
+# เครมแดดดี้มึงเดรสครับ เอาไปใช้ได้ แต่อย่าบอกว่าว่สาเป้นตัวเองให้เครดิตด้วยครับ😒😒
+
 
 ---
 
